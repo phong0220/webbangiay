@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/plugins.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/css.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="image/bg-images/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="image/bg-images/logo1.jpg">
     
 </head>
 
@@ -34,7 +34,7 @@
 				 <div class="single-slide bg-ghost-white">
                     <div class="container">
                         <div class="home-content text-center text-sm-left position-relative">
-                        <img src="image/bg-images/slide1.jpg" width="1200px" height="600px" alt="">
+                        <img src="image/bg-images/image_767.jpg" width="1200px" height="600px" alt="">
                            
                         </div>
                     </div>
@@ -98,11 +98,11 @@
             <div class="container">
                 <div class="row space-db--30">
                     <div class="col-lg-6 col-md-6 mb--30">
-                    <img src="image/bg-images/Ao1.jpg" width="600px" height="300px" alt="">
+                    <img src="image/bg-images/giay-luoi-vai-nu-ag0142-8.jpg" width="600px" height="300px" alt="">
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-6 mb--30">
-                    <img src="image/bg-images/ban2.jpg" width="600px" height="300px" alt="">
+                    <img src="image/bg-images/giay-the-thao-nam-ag0156-5.jpg" width="600px" height="300px" alt="">
                         </a>
                     </div>
                     

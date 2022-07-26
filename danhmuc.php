@@ -11,7 +11,7 @@
     <!-- Use Minified Plugins Version For Fast Page Load -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/plugins.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="image/bg-images/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="image/bg-images/logo1.jpg">
     <script>
 $('.message a').click(function(){
    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
@@ -65,7 +65,7 @@ $('.message a').click(function(){
 										</thead>
 										<tbody>
 				<?php 
-				$conn=mysqli_connect("localhost","root","","banhang");
+				$conn=mysqli_connect("sql6.freemysqlhosting.net", "sql6508780", "4ad1lttp8e", "sql6508780");
 				$sql="SELECT * FROM danhmuc";
 				$ketqua=mysqli_query($conn,$sql);
 				$stt=1;

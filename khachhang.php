@@ -29,7 +29,7 @@
 				<th width="20%">Xóa người dùng</th>
 			</tr>
 			<?php 
-				$conn=mysqli_connect("localhost","root","","banhang");
+				$conn=mysqli_connect("sql6.freemysqlhosting.net", "sql6508780", "4ad1lttp8e", "sql6508780");
 				$sql="SELECT * FROM taikhoan WHERE vaitro!='admin'" ;
 				$ketqua=mysqli_query($conn,$sql);
 				

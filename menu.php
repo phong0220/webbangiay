@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/plugins.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/admin_style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="image/bg-images/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="image/bg-images/logo1.jpg">
     <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="ckeditor/ckeditor.js"></script>
     <script>
@@ -22,7 +22,7 @@ $('.floating-chat').click(function(){
 </head>
 
 <body>
-    <?php $conn=mysqli_connect("localhost","root","","banhang"); ?>
+    <?php $conn=mysqli_connect("sql6.freemysqlhosting.net", "sql6508780", "4ad1lttp8e", "sql6508780"); ?>
     <div class="site-wrapper" id="top">
         <div class="site-header d-none d-lg-block">
             <div class="header-middle pt--10 pb--10">
@@ -30,7 +30,7 @@ $('.floating-chat').click(function(){
                     <div class="row align-items-center">
                         <div class="col-lg-2 ">
                             <a href="index.php" class="site-brand">
-                                <img src="image/bg-images/logo.png" alt="">
+                                <img src="image/bg-images/logo1.jpg" alt="">
                             </a>
                         </div>
                         <div class="col-lg-2" >
@@ -111,7 +111,7 @@ $('.floating-chat').click(function(){
                                         
                                     <?php   
                                             
-                                            mysqli_select_db($conn,"banhang");
+                                            mysqli_select_db($conn,"sql6508780");
 				                            $sql="SELECT * FROM danhmuc";
 				                            $ketqua=mysqli_query($conn,$sql);
                                             $stt=1;

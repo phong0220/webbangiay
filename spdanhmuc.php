@@ -22,7 +22,7 @@
             </div>
 		</div>
 		<?php
-        $conn=mysqli_connect("localhost","root","","banhang");
+        $conn=mysqli_connect("sql6.freemysqlhosting.net", "sql6508780", "4ad1lttp8e", "sql6508780");
 				if (isset($_GET['iddanhmuc'])) {
                 
 					$iddanhmuc=$_GET['iddanhmuc'];
@@ -59,7 +59,7 @@
                 
                 
                 // PHẦN XỬ LÝ PHP
-                $conn = mysqli_connect("localhost", "root" ,"", "banhang");
+                $conn = mysqli_connect("sql6.freemysqlhosting.net", "sql6508780", "4ad1lttp8e", "sql6508780");
          
         // BƯỚC 2: TÌM TỔNG SỐ RECORDS
         $result = mysqli_query($conn, 'select count(id) as total from hanghoa');
@@ -93,7 +93,7 @@
 				
 				
 				
-				$conn=mysqli_connect("localhost","root","","banhang");
+				$conn=mysqli_connect("sql6.freemysqlhosting.net", "sql6508780", "4ad1lttp8e", "sql6508780");
 				if (isset($_GET['iddanhmuc'])) {
                 
 					$iddanhmuc=$_GET['iddanhmuc'];

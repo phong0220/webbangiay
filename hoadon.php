@@ -1,6 +1,6 @@
 <?php 
    include ("menu.php");
-	$conn=mysqli_connect("localhost","root","","banhang");
+	$conn=mysqli_connect("sql6.freemysqlhosting.net", "sql6508780", "4ad1lttp8e", "sql6508780");
 	$date = getdate();
 	$ngay=''.$date['year'].'-'.$date['mon'].'-'.$date['mday'].'';	
 	if ($_SERVER["REQUEST_METHOD"]=="POST") {

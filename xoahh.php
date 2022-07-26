@@ -1,5 +1,5 @@
 <?php 
-	$conn=mysqli_connect("localhost","root","","banhang");
+	$conn=mysqli_connect("sql6.freemysqlhosting.net", "sql6508780", "4ad1lttp8e", "sql6508780");
 		$sql="DELETE  FROM hanghoa WHERE id=".$_GET['id'];
 		$ketqua=mysqli_query($conn,$sql);				
 ?>
